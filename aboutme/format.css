@@ -1,0 +1,36 @@
+/*#css1 {
+ float: left;
+    
+}
+
+#css2 {
+    float: right;
+  left: 10px;
+  color: red;
+}
+*/
+
+
+
+body {
+    background-image: radial-gradient(white, grey);
+}
+
+#namebutton{
+    color:white;
+    background-color: blue;
+    /* width: 170px; 
+    height: 80px;
+
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+*/
+
+}
+
+#ambutton{
+    color: blue;
+    
+
+}
