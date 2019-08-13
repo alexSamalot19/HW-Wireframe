@@ -10,15 +10,15 @@
      L40 width: '960px'
      L41 font-size: '18px'
    * Header, Nav, Section, Aside, and Footer
-     L45: background: '#ebebeb'
+     * background: '#ebebeb'
    * Article
-     L90: color: '#ebebeb',
-     L91: background: '#777'
+     * color: '#ebebeb',
+     * background: '#777'
    * h1 and p
-     L46 +: color: '#777',
-     L45 +: background: '#ebebeb'
+     * color: '#777',
+     * background: '#ebebeb'
 3. The width of the section should be:
-      L76: section: 495px
+   * section: 495px
 
  **/
 
@@ -45,16 +45,15 @@ h1 {
     background: #ebebeb;
     color:  #777;
     font-weight: normal;
-    font-size: 18px;
+    /* font-size: '18px' */
   }
   
 
 
 header {
   /*border-width: 0 0 0 20px;*/
-  width: '960px';
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 100px;
+  margin-right: 100px;
   padding: 20px;
   margin-bottom: 20px;
   /* color: dimgray; */
@@ -62,8 +61,8 @@ header {
 }
 
 #nav {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 100px;
+  margin-right: 100px;
   padding: 20px;
   margin-bottom: 20px;
   /* color: dimgray; */
@@ -78,8 +77,8 @@ header {
   /* color: dimgray; */
   background:#ebebeb;
   margin-bottom: 20px;
-  margin-left: 250px;
-  margin-right: 5px;
+  margin-left: 100px;
+  margin-right: 10px;
   overflow: auto
 }
 
@@ -88,7 +87,7 @@ header {
   padding: 10px;
   margin-top: 10px;
   background: #777 !important;
-  color:  #ebebeb !important;   
+  /* color:  #ebebeb !important;   */
   width: 90%;
   float: center;
   margin-left: 20px;
@@ -139,10 +138,10 @@ header {
 
 aside {
   float: right;
-  width: 28%;
+  width: 33%;
   height: 350px;
   padding: 20px;
-  margin-right: 250px;
+  margin-right: 100px;
   color: #777;
   background:#ebebeb;
   border: 1px solid #ebebeb;
@@ -154,6 +153,6 @@ footer {
   clear: both;
   color: #777;
   background: #ebebeb;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 100px;
+  margin-right: 100px;
 }

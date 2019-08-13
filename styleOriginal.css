@@ -1,0 +1,137 @@
+/**
+ * Float Layout Activity
+
+1. Your HTML should have each of the following sections:
+   * Header
+   * Nav
+   * Aside (With a Heading)
+   * Section (With a Heading)
+   * Article (With a Heading) contained within the Section
+   * Headers contained within the Article
+   * Paragraph contained within the Article
+2. Your CSS should have styles for each of the following elements:
+   * Body
+     * font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     * color: '#777'
+     * background: '#777'
+     * width: '960px'
+     * font-size: '18px'
+   * Header, Nav, Section, Aside, and Footer
+     * background: '#ebebeb'
+   * Article
+     * color: '#ebebeb',
+     * background: '#777'
+   * h1 and p
+     * color: '#777',
+     * background: '#ebebeb'
+3. The width of the section should be:
+   * section: 495px
+
+ **/
+
+ 
+
+ * {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small
+}
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+
+header {
+  /*border-width: 0 0 0 20px;*/
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: dimgray;
+  background: #fff
+}
+
+#nav {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: dimgray;
+  background: #fff;
+}
+
+#section {
+  overflow: auto; 
+  float: left;
+  width: 50%;
+  height: 250px;
+  color: dimgray;
+  background: #fff;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+#article {
+  position: relative;
+  padding: 10px;
+  margin-top: 10px;
+  background: dimgray;
+  color:  #fff; 
+  width: 90%;
+  float: center;
+  margin-left: 20px;
+  /**specify relative position css**/
+}
+
+
+#nested-h {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: dimgray;
+  background: #fff;
+  font-weight: bold;
+  
+}
+
+#nested-p {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: dimgray;
+  background: #fff;
+}
+
+/**
+#full {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  color: #fff;
+  background: #394549;
+}
+**/
+
+
+aside {
+  float: right;
+  width: 33%;
+  height: 250px;
+  padding: 20px;
+  margin-right: 100px;
+  color: dimgray;
+  background: #fff;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 20px;
+  clear: both;
+  color: dimgray;
+  background: #fff;
+  margin-left: 100px;
+  margin-right: 100px;
+}
